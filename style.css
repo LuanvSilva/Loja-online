@@ -1,0 +1,64 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   margin: 0px;
+   padding: 0px;
+   
+}
+header{
+   min-height: 150px;
+   padding-top: 40px;
+    background-image: linear-gradient(to bottom, rgb(114, 3, 3) , rgb(248, 36, 36));
+}
+
+header > h2 {
+    color: white;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px  black;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+header > p {
+    font-size: 1.2em;
+    color: white;
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
+}
+header > nav {
+    background-color: rgb(231, 20, 20);
+    padding: 10px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.692);
+}
+header > nav > a {
+    color: rgb(7, 1, 1);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+header > nav > a:hover{
+    background-color: rgb(2, 0, 0);
+    color: red;
+}
+main {
+    min-width: 300px;
+    max-width:1000px ;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.568);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > article > table > tr > {
+    width: 500px;
+}
